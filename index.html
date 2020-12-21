@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML CSS</title>
+
+    <!-- <style>
+      #title {
+        color: red;
+        background-color: yellow;
+      }
+
+      #title2 {
+        color: red;
+        background-color: yellow;
+      }
+
+      .clsTitle {
+        text-align: center;
+      }
+    </style> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- <h1 style="color: red; background-color: blue">
+      Hello Cybersoft
+    </h1> -->
+
+    <!-- <h1 id="title" class="clsTitle">Hello Cybersoft</h1>
+    <h1 id="title2" class="clsTitle">Hello Nguyen</h1> -->
+
+    <div id="wrapper">
+      <!-- Header -->
+      <div id="header">
+        <img src="./img/LOGO.png" alt="" />
+      </div>
+
+      <!-- Navbar -->
+      <div id="navbar">
+        <ul>
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#gioithieu">Giới thiệu</a></li>
+          <li><a href="#sanpham">Sản phẩm</a></li>
+          <li><a href="#tintuc">Tin tức</a></li>
+          <li><a href="#lienhe">Liên hệ</a></li>
+        </ul>
+      </div>
+
+      <!-- Carousel -->
+      <div id="carousel"></div>
+
+      <!-- Intro -->
+      <div id="intro-product">
+        <p>
+          Tại <span class="intro-title">KLK Phuc Thinh</span> Lorem ipsum dolor,
+          sit amet consectetur adipisicing elit. Error voluptate explicabo quasi
+          impedit assumenda aliquam totam adipisci ipsa asperiores, consequatur
+          expedita fugit eius tempore architecto a consectetur veniam officia
+          tenetur!
+        </p>
+        <div class="intro-product-left">
+          <div class="intro-product-item width-50">
+            <img src="./img/img_nha_tam.jpg" alt="" />
+          </div>
+          <div class="intro-product-item width-50">
+            <img src="./img/sofa.jpg" alt="" />
+          </div>
+          <div class="intro-product-item width-100">
+            <img src="./img/img_noi_that.jpg" alt="" />
+          </div>
+        </div>
+        <div class="intro-product-right">
+          <div class="intro-product-item width-100">
+            <img src="./img/img_phong_khach.jpg" alt="" />
+          </div>
+          <div class="intro-product-item width-100">
+            <img src="./img/img_van_phong.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="clear-both"></div>
+      </div>
+
+      <!-- Best Seller -->
+      <div id="best-seller">
+        <h1>Các sản phẩm bán chạy</h1>
+        <div class="product-list">
+          <div class="product-items" >
+            <img src="./img/sp_1.jpg" alt="" class="product-img">
+            <h2 class="product-name">SF0013</h2>
+            <p class="product-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perspiciatis mollitia, tempore laborum quo sapiente soluta doloribus consequuntur repudiandae, dolore, magnam aperiam numquam est rem minima! At deserunt soluta delectus!</p>
+            <button class="button">Chi tiết</button>
+          </div>
+          <div class="product-items" >
+            <img src="./img/sp_2.jpg" alt="" class="product-img">
+            <h2 class="product-name">SF0013</h2>
+            <p class="product-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perspiciatis mollitia, tempore laborum quo sapiente soluta doloribus consequuntur repudiandae, dolore, magnam aperiam numquam est rem minima! At deserunt soluta delectus!</p>
+            <button class="button">Chi tiết</button>
+          </div>
+          <div class="product-items" >
+            <img src="./img/sp_3.jpg" alt="" class="product-img">
+            <h2 class="product-name">SF0013</h2>
+            <p class="product-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perspiciatis mollitia, tempore laborum quo sapiente soluta doloribus consequuntur repudiandae, dolore, magnam aperiam numquam est rem minima! At deserunt soluta delectus!</p>
+            <button class="button">Chi tiết</button>
+          </div>
+          <div class="product-items" >
+            <img src="./img/sp_4.jpg" alt="" class="product-img">
+            <h2 class="product-name">SF0013</h2>
+            <p class="product-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perspiciatis mollitia, tempore laborum quo sapiente soluta doloribus consequuntur repudiandae, dolore, magnam aperiam numquam est rem minima! At deserunt soluta delectus!</p>
+            <button class="button">Chi tiết</button>
+          </div>
+        </div>
+        <div class="clear"></div>  
+      </div>
+
+      <!-- Banner -->
+      <div id="banner">
+        <div class="saleoff">
+          <h1>SALE OFF</h1>
+          <p>50%</p>
+          <p>Các sản phẩm sofa<br> trong tháng 7</p>
+        </div>
+      </div>
+      <!-- service -->
+      <div id="service">
+        <div class="service-items">
+          <i class="fa fa-home"></i>
+          <h2>Dịch vụ bảo hành</h2>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, praesentium dicta. Aut laboriosam deleniti nobis sequi rerum voluptatum beatae odio reiciendis, quae, sapiente aliquid iusto itaque voluptatibus ut iure quos.</span>
+        </div>
+        <div class="service-items">
+          <i class="fa fa-edit"></i>          
+          <h2>Thiết kế nội thất</h2>
+          <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod necessitatibus perspiciatis aliquam amet, voluptate nisi laudantium, sint aliquid blanditiis, ea asperiores nobis totam. Error odit quis sunt incidunt at reprehenderit?</span>
+        </div>
+        <div class="service-items">
+          <i class="fa fa-user"></i>  
+          <h2>Đội ngũ nhân lực</h2>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ratione maiores commodi veritatis fuga officia amet natus totam, accusamus delectus est, illum nemo itaque optio? At placeat magni voluptatem ut?</span>
+        </div>
+      </div>
+      <div class="clear-service"></div>
+
+      <!-- Footer -->
+      <div class="footer">
+          <p>
+            <span>Interior Design</span><br>
+            Lorem ipsum dolor sit amet<br>
+            Lorem ipsum dolor sit amet<br>
+            Lorem ipsum dolor sit amet
+          </p>
+      </div>
+      </div>
+    
+    </div>
+  </body>
+</html>
